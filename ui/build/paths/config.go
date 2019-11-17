@@ -90,6 +90,7 @@ var Configuration = map[string]PathConfig{
 	"brotli":         Allowed,
 	"bison":          Allowed,
 	"ccache":         Allowed,
+	"cpio":           Allowed,
 	"diff":           Allowed,
 	"dlv":            Allowed,
 	"expr":           Allowed,
