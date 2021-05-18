@@ -112,6 +112,7 @@ var Configuration = map[string]PathConfig{
 	"pstree":      Allowed,
 	"rsync":       Allowed,
 	"sh":          Allowed,
+	"squash":      Allowed,
 	"stubby":      Allowed,
 	"tr":          Allowed,
 	"unzip":       Allowed,
@@ -131,7 +132,7 @@ var Configuration = map[string]PathConfig{
 	"ld":         Forbidden,
 	"ld.bfd":     Forbidden,
 	"ld.gold":    Forbidden,
-	"pkg-config": Forbidden,
+	"pkg-config": Allowed,
 
 	// These are toybox tools that only work on Linux.
 	"pgrep": LinuxOnlyPrebuilt,
