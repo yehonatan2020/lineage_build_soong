@@ -116,6 +116,7 @@ var Configuration = map[string]PathConfig{
 	"python3.10":     Allowed,
 	"rsync":       Allowed,
 	"sh":          Allowed,
+	"soong_zip":     Allowed,
 	"squash":      Allowed,
 	"stubby":      Allowed,
 	"tr":          Allowed,
