@@ -44,6 +44,8 @@ var (
 		// See also noOverrideGlobalCflags for errors that cannot be disabled
 		// from Android.bp files.
 
+		"-O3",
+
 		// Using __DATE__/__TIME__ causes build nondeterminism.
 		"-Werror=date-time",
 		// Detects forgotten */& that usually cause a crash
